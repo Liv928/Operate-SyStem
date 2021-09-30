@@ -1,0 +1,69 @@
+Ready Queue 1 Applying FCFS Scheduling:
+
+Order of selection by CPU: 
+p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 
+
+Individual waiting times for each process: 
+p1 = 0
+p2 = 30
+p3 = 40
+p4 = 64
+p5 = 84
+p6 = 101
+p7 = 105
+p8 = 112
+p9 = 123
+p10 = 131
+p11 = 140
+p12 = 145
+p13 = 151
+p14 = 154
+p15 = 156
+
+Average waiting time = 102.4
+
+Ready Queue 1 Applying SJF Scheduling: 
+
+Order of selection by CPU: 
+p15 p14 p13 p6 p11 p12 p7 p9 p10 p2 p8 p5 p4 p3 p1 
+
+Individual waiting times for each process: 
+p15 = 0
+p14 = 1
+p13 = 3
+p6 = 6
+p11 = 10
+p12 = 15
+p7 = 21
+p9 = 28
+p10 = 36
+p2 = 45
+p8 = 55
+p5 = 66
+p4 = 83
+p3 = 103
+p1 = 127
+
+Average waiting time = 39.9
+
+Ready Queue 1 Applying RR Scheduling:
+
+Order of selection by CPU: 
+p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p1 p2 p3 p4 p5 p7 p8 p9 p10 p11 p12 p1 p2 p3 p4 p5 p8 p10 p1 p3 p4 p5 p1 p3 p4 p5 p1 p3 p1 p1 
+
+Turnaround times for each process: 
+p6 = 4
+p13 = 3
+p14 = 2
+p15 = 1
+p7 = 53
+p9 = 53
+p11 = 50
+p12 = 48
+p2 = 94
+p8 = 85
+p10 = 78
+p4 = 130
+p5 = 127
+p3 = 143
+p1 = 157
